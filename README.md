@@ -1,6 +1,6 @@
 # dialogflow-cli
 
-[![Build Status][build-status-image]][build-status] [![Known Vulnerabilities](https://snyk.io/test/github/onedox/dialogflow-cli/badge.svg)](https://snyk.io/test/github/onedox/dialogflow-cli)
+[![Build Status](https://circleci.com/gh/onedox/dialogflow-cli.svg?style=svg)](https://circleci.com/gh/onedox/dialogflow-cli) [![Known Vulnerabilities](https://snyk.io/test/github/onedox/dialogflow-cli/badge.svg)](https://snyk.io/test/github/onedox/dialogflow-cli)
 
 The missing command line interface for managing DialogFlow agents.
 
@@ -33,6 +33,6 @@ accessed by the credential file from the folder test.
 
     dialogflow-cli import --credentials ./credentials.json test/
 
-[build-status-image]: https://img.shields.io/circleci/project/github/0xcaff/dialogflow-cli/master.svg
-[build-status]: https://circleci.com/gh/0xcaff/dialogflow-cli
+[build-status-image]: https://img.shields.io/circleci/project/github/onedox/dialogflow-cli/master.svg
+[build-status]: https://circleci.com/gh/onedox/dialogflow-cli
 [quickstart]: https://github.com/dialogflow/dialogflow-nodejs-client-v2#quickstart
