@@ -31,7 +31,7 @@
     "node": ">=8.1.0"
   },
   "config": {
-    "prettierFiles": "{*,**/*}.{js,json} README.md"
+    "prettierFiles": "src/{*,**/*}.{js,json} README.md"
   },
   "scripts": {
     "fix-style": "prettier --write $npm_package_config_prettierFiles",
