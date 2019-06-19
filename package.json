@@ -11,24 +11,24 @@
   "author": "Martin Charles <martincharles07@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@babel/runtime": "^7.0.0-beta.40",
-    "archiver": "^2.1.1",
-    "commander": "^2.14.1",
-    "dialogflow": "^0.1.0",
-    "raw-body": "^2.3.2",
-    "unzip": "^0.1.11"
+    "@babel/runtime": "^7.0.0",
+    "archiver": "^3.0.0",
+    "commander": "^2.20.0",
+    "dialogflow": "^0.10.1",
+    "raw-body": "^2.4.0",
+    "unzipper": "^0.10.1"
   },
   "devDependencies": {
-    "@babel/cli": "^7.0.0-beta.40",
-    "@babel/core": "^7.0.0-beta.40",
-    "@babel/plugin-transform-runtime": "^7.0.0-beta.40",
-    "@babel/preset-env": "^7.0.0-beta.40",
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.0.0",
+    "@babel/preset-env": "^7.4.5",
     "babel-eslint": "^8.2.2",
     "eslint": "^4.18.1",
     "prettier": "^1.10.2"
   },
   "engines": {
-    "node": ">=4.0.0"
+    "node": ">=8.1.0"
   },
   "config": {
     "prettierFiles": "{*,**/*}.{js,json} README.md"
@@ -49,7 +49,6 @@
         "@babel/plugin-transform-runtime",
         {
           "helpers": false,
-          "polyfill": false,
           "regenerator": true
         }
       ]
@@ -59,7 +58,7 @@
         "@babel/preset-env",
         {
           "targets": {
-            "node": "4"
+            "node": "8"
           }
         }
       ]
