@@ -1,5 +1,5 @@
 import { PassThrough } from "stream";
-import unzip from "unzip";
+import unzip from "unzipper";
 import program from "commander";
 
 const { handleArguments } = require("../globalFlags");
