@@ -1,6 +1,6 @@
 # dialogflow-cli
 
-[![Build Status][build-status-image]][build-status]
+[![Build Status][build-status-image]][build-status] [![Known Vulnerabilities](https://snyk.io/test/github/onedox/dialogflow-cli/badge.svg)](https://snyk.io/test/github/onedox/dialogflow-cli)
 
 The missing command line interface for managing DialogFlow agents.
 
